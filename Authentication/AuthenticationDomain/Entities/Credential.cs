@@ -43,7 +43,15 @@ namespace AuthenticationDomain.Entities
             if (string.IsNullOrEmpty(password))
                 return false;
 
+            if (!IsActive)
+                return false;
+
             return BCrypt.Net.BCrypt.Verify(password, Password);
+        }
+
+        public void Deactivate()
+        {
+            IsActive = false;
         }
     }
 }

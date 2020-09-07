@@ -220,5 +220,15 @@ namespace AuthenticationDomainTest.Entities
 
             Assert.False(authenticate);
         }
+
+        [Fact]
+        public void Authenticate_Fail_DeactivatedCredential()
+        {
+            var credential = Credential.Create(_username, _password).Value;
+            credential.Deactivate();
+            var authenticate = credential.Authenticate(_password);
+
+            Assert.False(authenticate);
+        }
     }
 }

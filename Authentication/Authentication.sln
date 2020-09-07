@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationDomain", "AuthenticationDomain\AuthenticationDomain.csproj", "{E5094AD7-6D9D-47EE-91D8-B2360BDC33BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationDomain", "AuthenticationDomain\AuthenticationDomain.csproj", "{E5094AD7-6D9D-47EE-91D8-B2360BDC33BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationDomainTest", "AuthenticationDomainTest\AuthenticationDomainTest.csproj", "{E5AA13CA-7E0C-4A06-846F-DA5B342505FA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationDomainTest", "AuthenticationDomainTest\AuthenticationDomainTest.csproj", "{E5AA13CA-7E0C-4A06-846F-DA5B342505FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationRepository", "AuthenticationRepository\AuthenticationRepository.csproj", "{569E04FF-9F68-467E-9FA3-4DBDB0955EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationRepositoryTest", "AuthenticationRepositoryTest\AuthenticationRepositoryTest.csproj", "{B76E80DA-D9F0-43C2-BF77-C2A70702F074}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationService", "AuthenticationService\AuthenticationService.csproj", "{DE782081-2FB3-424D-9DB0-BC59DBF0EC0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{E5AA13CA-7E0C-4A06-846F-DA5B342505FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5AA13CA-7E0C-4A06-846F-DA5B342505FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5AA13CA-7E0C-4A06-846F-DA5B342505FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{569E04FF-9F68-467E-9FA3-4DBDB0955EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569E04FF-9F68-467E-9FA3-4DBDB0955EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569E04FF-9F68-467E-9FA3-4DBDB0955EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569E04FF-9F68-467E-9FA3-4DBDB0955EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76E80DA-D9F0-43C2-BF77-C2A70702F074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76E80DA-D9F0-43C2-BF77-C2A70702F074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76E80DA-D9F0-43C2-BF77-C2A70702F074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76E80DA-D9F0-43C2-BF77-C2A70702F074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE782081-2FB3-424D-9DB0-BC59DBF0EC0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE782081-2FB3-424D-9DB0-BC59DBF0EC0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE782081-2FB3-424D-9DB0-BC59DBF0EC0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE782081-2FB3-424D-9DB0-BC59DBF0EC0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
