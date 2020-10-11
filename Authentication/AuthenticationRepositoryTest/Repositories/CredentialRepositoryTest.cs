@@ -10,7 +10,7 @@ namespace AuthenticationRepositoryTest.Repositories
         [Fact]
         public void Constructor_Success()
         {
-            var authenticationContext = new AuthenticationContext(string.Empty, true);
+            var authenticationContext = new AuthenticationContext("connectionString", true);
             new CredentialRepository(authenticationContext);
         }
 
